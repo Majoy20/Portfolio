@@ -8,7 +8,6 @@ body{
 color: #808080;
 font-family: 'Montserrat', sans-serif;
 background: #0F1418;
-overflow-x: hidden;
 padding: 0;
 margin: 0;
 font-size: 16px;
@@ -17,6 +16,7 @@ font-size: 16px;
 #services,
 #contact{
 height: 700px; 
+overflow: hidden;
 }
 header{
 position: fixed;
@@ -357,7 +357,7 @@ max-width: 80%;
 }
 #works{
 height: 100%;
-overflow-x: hidden;
+overflow: hidden;
 }
 .contact-content{
 padding: 0 20%;
