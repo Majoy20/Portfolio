@@ -1,0 +1,87 @@
+alert(" ");
+
+document.getElementById("text").innerHTML = "Hello World";
+
+document - to get something in the whole html document
+
+getElementById - to get element within the document by its id
+
+// - comment in javascript
+
+<script type="text/javascript">
+document.getElementById("myButton").onclick  = function () {
+document.getElementById("text").innerHTML = "Hello World";
+alert("Button clicked");
+}
+</script>
+
+
+
+
+candy crushhttps://www.tutorialrepublic.com/php-tutorial/
+
+
+Funda Of Web IT - youtube channel (laravel)
+PHP
+JQUERY 
+- The Write Less, Do More, JavaScript Library.
+-JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax
+
+AJAX
+-web applications can send and retrieve data from a server asynchronously without interfering with the display and behavior of the existing page
+
+
+php artisan make:controller name
+php artisan make:model name
+php artisan m   igrate
+php artisan make: controller (name) --resource --model=(name)  
+php artisan migrate:rollback
+
+
+
+
+create database
+create tables
+select 
+update ( update, set)
+inner join
+left join
+group by
+order by
+alter table add
+alter table drop
+limit
+mod(worker_id, 2 ) <> 0  // to show odd rows
+
+mod(worker_id, 2) = 0 // to show even rows
+select curdate(); //current date
+select now(); //current date and time
+select getdate();
+
+select salary
+from worker w1
+where 4 = (
+select count( distinct ( w2.salary) )
+from worker w2
+where w2.salary >= w1.salary);
+
+INNERJOIN
+select column_name
+from table 1
+inner join table 2 on table1.column_name = 
+table2.column_name;
+
+
+
+
+
+.innerHTML 
+.style.color
+.style.font-size
+.style.display
+.value
+
+console.log
+myArray.length
+push("");  - add array value
+splice(1,1);   -remove array value
